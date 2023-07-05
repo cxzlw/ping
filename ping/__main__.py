@@ -36,7 +36,7 @@ def index_now():  # bing, yandex
 
 if __name__ == '__main__':
     args = set(sys.argv)
-    print(args)
+
     if "--google" in args:
         google()
     if "--index-now" in args:
