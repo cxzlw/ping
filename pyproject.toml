@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ping"
+version = "0.1.0"
+description = ""
+authors = ["cxzlw <wsc_zds@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+httpx = "^0.24.1"
+lxml = "^4.9.3"
+beautifulsoup4 = "^4.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
